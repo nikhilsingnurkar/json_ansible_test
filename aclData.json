@@ -1,0 +1,70 @@
+{
+  "PortACLs": [
+    {
+      "Name": "SampleNewPortACL1",
+      "Descriptition": "SampleNewPortACL1 Descritption",
+      "PortACLRules": [
+        {
+          "Name": "SamportNewPortACL1Rule1",
+          "Description": "Allow HTTP",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "80",
+          "Protocol": "Tcp",
+          "Priority": "100"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule2",
+          "Description": "Allow HTTPS",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "443",
+          "Protocol": "Tcp",
+          "Priority": "200"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule2",
+          "Description": "Allow HTTPS",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "443",
+          "Protocol": "Tcp",
+          "Priority": "200"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule2",
+          "Description": "Allow HTTPS",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "443",
+          "Protocol": "Tcp",
+          "Priority": "200"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule2",
+          "Description": "Allow HTTPS",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "443",
+          "Protocol": "Tcp",
+          "Priority": "200"
+        }
+      ]
+    }
+  ]
+}
