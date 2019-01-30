@@ -1,0 +1,136 @@
+{
+  "PortACLs": [
+    {
+      "Name": "SampleNewPortACL1",
+      "Descriptition": "SampleNewPortACL1 Descritption",
+      "PortACLRules": [
+        {
+          "Name": "SamportNewPortACL1Rule1",
+          "Description": "Allow HTTP",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "80",
+          "Protocol": "Tcp",
+          "Priority": "100"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule2",
+          "Description": "Allow HTTPS",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "443",
+          "Protocol": "Tcp",
+          "Priority": "200"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule3",
+          "Description": "RDP",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "3389",
+          "Protocol": "Tcp",
+          "Priority": "300"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule4",
+          "Description": "winRM HTTP",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "5985",
+          "Protocol": "Tcp",
+          "Priority": "400"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule5",
+          "Description": "winRM HTTPS",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "5986",
+          "Protocol": "Tcp",
+          "Priority": "500"
+        }
+      ]
+    },
+    {
+      "Name": "SampleNewPortACL2",
+      "Descriptition": "SampleNewPortACL2 Descritption",
+      "PortACLRules": [
+        {
+          "Name": "SamportNewPortACL1Rule11",
+          "Description": "Allow HTTP",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "8080",
+          "Protocol": "Tcp",
+          "Priority": "1100"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule12",
+          "Description": "Allow FTP",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "21",
+          "Protocol": "Tcp",
+          "Priority": "1200"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule13",
+          "Description": "SSH",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "22",
+          "Protocol": "Tcp",
+          "Priority": "1300"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule14",
+          "Description": "Telnet",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "23",
+          "Protocol": "Tcp",
+          "Priority": "1400"
+        },
+        {
+          "Name": "SamportNewPortACL1Rule15",
+          "Description": "SMTP",
+          "Type": "Inbound",
+          "Action": "Allow",
+          "LocalAddressPrefix": "*",
+          "LocalPortRange": "*",
+          "RemoteAddressPrefix": "*",
+          "RemotePortRange": "25",
+          "Protocol": "Tcp",
+          "Priority": "1500"
+        }
+      ]
+    }
+  ]
+}
